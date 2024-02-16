@@ -1,0 +1,16 @@
+.image{
+    width:80px; 
+    height:80px;
+}
+.head{
+    background-color:rgb(183, 62, 102);
+    color:white;
+}
+.section{
+    background-color: bisque;
+} 
+.footer{
+    background-color: rgb(183, 62, 102); 
+    height:40px;
+    color:white;
+}
