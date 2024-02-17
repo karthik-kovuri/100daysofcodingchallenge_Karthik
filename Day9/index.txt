@@ -1,3 +1,5 @@
 Written plane HTML code.
 Added anchor elements and images. 
 Added background colors by using CSS Class Selectors.
+Added class selectors , masquee tag which helps to move text.
+Added styles and made a web poage to look good.

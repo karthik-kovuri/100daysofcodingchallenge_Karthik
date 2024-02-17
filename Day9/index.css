@@ -1,16 +1,109 @@
 .image{
     width:80px; 
-    height:80px;
+    height:80px; 
+    border-radius: 10px; 
+    
+}
+.logo{
+    width:80px;
+    border-radius: 20px;
 }
 .head{
-    background-color:rgb(183, 62, 102);
-    color:white;
+   
+   
 }
 .section{
-    background-color: bisque;
+    
+    margin-left: 100px;
 } 
 .footer{
     background-color: rgb(183, 62, 102); 
-    height:40px;
-    color:white;
+    
+    color:white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-container{
+    
+    width: 95vw; 
+    background-color: bisque; 
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: 10px;
+
+}
+.menu-container{
+    display:flex;
+}
+.img-container{
+    margin-left: 50px;
+}
+.my-form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.name{
+    width: 200px;
+    margin-top: 10px;
+}
+.submit{
+    width: 100px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+}
+.area{
+    width:250px;
+    margin-top: 10px;
+}
+.item{
+    margin-left: 20px; 
+    margin-right: 40px; 
+    color: white;
+}
+.nav-container{
+    background-color:rgb(183, 62, 102); 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center;
+    align-items: center;
+}
+.main-container{
+    background-color: gainsboro;
+} 
+.nav-items{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.running{
+    color:red;
+}
+
+.running2{
+    color:red;
+    font-size: 40px;
+}
+.para{
+    text-align: center;
+    font-size: 25px;
+}
+.menu{
+    font-size: 30px;
+    margin-left: 10px; 
+    color: blue;
+}
+.heading{
+    color: blue;
+    font-size: 25px;
 }
