@@ -1,0 +1,31 @@
+Updated Day9 code.
+
+Day 10 Learnings : 
+
+HTML5 semantic elements enhance document structure:
+
+<header>: Defines a document or section header.
+<footer>: Specifies a footer.
+<nav>: Used for navigation links.
+<article>: For independent content.
+<section>: A section of a document.
+<aside>: Content set aside, like a sidebar.
+
+Comments
+Comments help in documenting HTML code and are not displayed in the browser.
+
+Example:
+<!-- This is a comment -->
+
+Attributes
+Attributes provide extra information about HTML elements:
+
+class: Classnames for an element.
+id: A unique id for an element.
+style: Inline CSS styling.
+Example:
+<p class="text-info" id="paragraph1" style="color: blue;">This is a styled paragraph.</p>
+Assessment
+Add Semantic Elements: Apply semantic elements like header,footer in structuring the restaurant menu website.
+Implement Comments: Use HTML comments for code documentation.
+Use Attributes: Apply class and id to elements.
