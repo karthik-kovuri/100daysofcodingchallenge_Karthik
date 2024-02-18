@@ -18,8 +18,10 @@
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    
                 </ul>
+                
             </nav>
         </div>
     </header>
@@ -61,15 +63,23 @@
     <section id="skills">
         <div class="container">
             <h2>Skills</h2> 
-            <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ol>
+           <div class="skills-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc61Hs8qcthCfBHmApm3yjbKl03hlka9rEW7pjnoaqzl_Zzp7UMOsuHyE&usqp=CAU" class="img-logo"/>
+            <p class="skill-para">HTML</p>
+           </div>
+           <div class="skills-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZ0Ype9Sjzn9gUdW2DbsArLcoOo6Yeo3hpdzG_d74mEyiAnCsilchJPQ&usqp=CAU" class="img-logo"/>
+            <p class="skill-para">CSS</p>
+           </div>
+           <div class="skills-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI95H9Tife_8I4vgO0lIhNdevZStupV_wAKwA65tvocdAXoP9viTLUXPIMqPfTB1_1PiM&usqp=CAU" class="img-logo2"/>
+            <p class="skill-para">JS</p>
+           </div>
+        
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
+    <section id="contact" >
+        <div class="container contact">
             <h2>Contact</h2>
             <form class="my-form">
                 <div class="form-item">
@@ -85,7 +95,7 @@
                 <textarea id="message" name="message"></textarea>
                 </div>
 
-                <button type="submit">Send</button>
+                <button type="submit" class="button">Send</button>
             </form>
         </div>
     </section>

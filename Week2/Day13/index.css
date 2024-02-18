@@ -113,3 +113,41 @@ footer {
 .project-items{
     display: flex;
 } 
+.button{
+    width:100px;
+    height: 40px;
+    background-color: blue;
+    color:#fff;
+    border-radius: 10px;
+}
+.contact{
+    border-radius: 20px;
+    background-color:white ;
+    background-size: cover;
+    color: black;
+    width:350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.img-logo{
+    width:100px;
+    border-radius: 50px;
+}
+.img-logo2{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+.skill-para{
+    margin-left: 10px;
+}
