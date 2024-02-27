@@ -1,0 +1,79 @@
+:root {
+    --bg-color: #1e1e1e;
+    --container-bg-color: #252526;
+    --text-color: #ddd;
+    --input-bg-color: #333;
+    --border-color: #333;
+    --odd-bg-color: #333;
+    --odd-text-color: #ddd;
+    --even-bg-color: #292929;
+    --even-text-color: #ddd;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  .header {
+    text-align: center;
+    color: var(--text-color);
+  }
+  .input-field {
+    width: calc(100% - 70px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 10px;
+    background-color: var(--input-bg-color);
+    color: var(--text-color);
+  }
+  .submit-btn {
+    padding: 8px 15px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .todo-item {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+  }
+  .todo-item:nth-child(odd) {
+    background-color: var(--odd-bg-color);
+    color: var(--odd-text-color);
+  }
+  .todo-item:nth-child(even) {
+    background-color: var(--even-bg-color);
+    color: var(--even-text-color);
+  }
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  .delete-icon {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .delete-icon:hover {
+    color: red;
+  }
