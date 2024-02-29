@@ -1,0 +1,2 @@
+Updated the ToDo task by adding background colors for each item .
+Extend your to-do list project by incorporating asynchronous operations. For example, simulate fetching data from a server or saving tasks asynchronously.
