@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Example</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Include React library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.development.js"></script>
+    
+    <script>
+        // React component code
+        const App = () => {
+            return (
+                <div>
+                    <h1>Hello, React!</h1>
+                    <p>This is a simple React component.</p>
+                </div>
+            );
+        };
+
+        // Render the React component
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
